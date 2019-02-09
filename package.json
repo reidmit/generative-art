@@ -1,0 +1,20 @@
+{
+  "name": "generative-art",
+  "private": true,
+  "version": "1.0.0",
+  "description": "some generative art",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "mustache": "^3.0.1",
+    "nodemon": "^1.18.10",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "nodemon scripts/build.js & http-server build -p 4701"
+  },
+  "keywords": [],
+  "author": "Reid Mitchell <reidmitchell1@gmail.com>",
+  "license": "MIT"
+}

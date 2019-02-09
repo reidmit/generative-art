@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>sketches</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      {{#sketches}}
+      <li>
+        <a href="{{ name }}.html">{{ name }}</a>
+      </li>
+      {{/sketches}}
+    </ul>
+  </body>
+</html>
